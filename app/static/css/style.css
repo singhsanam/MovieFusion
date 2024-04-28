@@ -325,11 +325,14 @@ body {
     font-size: 2rem;
 }
 
-.main-slider-box:hover .main-slider-overlay {
+.mySwiper1 .main-slider-box:hover .main-slider-overlay {
     top: 0px;
     transition: all ease 0.3s;
 }
-
+.mySwiper2 .main-slider-box:hover .main-slider-img {
+    transform: scale(1.05);
+    transition: transform 0.4s ease-in-out;
+}
 .swiper-button-next,
 .swiper-button-prev {
     position: static !important;
@@ -405,6 +408,9 @@ body {
 .post-box:hover .post-img img {
     transform: scale(1.05);
 }
+/* .mySwiper2 .post-box:hover .post-img img {
+    transform: scale(1.05);
+} */
 
 .main-slider-text .movie-name a:hover {
     opacity: 0.5;
